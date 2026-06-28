@@ -97,12 +97,15 @@ It demonstrated the highest predictive accuracy while maintaining the lowest pre
 
 # 📁 Project Structure
 Wind_Energy_Efficiency/
+
 │
 ├── data/
 │   └── train.csv
+
 │
 ├── notebooks/
 │   └── Wind_Energy_Efficiency_Project.ipynb
+
 │
 ├── images/
 │   ├── Heatmap.png
@@ -110,11 +113,16 @@ Wind_Energy_Efficiency/
 │   ├── Residual_Plot.png
 │   ├── Feature_Importance.png
 │   └── Actual_vs_Predicted.png
+
 │
 ├── requirements.txt
+
 ├── README.md
+
 └── LICENSE
-🚀 Future Improvements
+
+# 🚀 Future Improvements
+
 Hyperparameter Tuning (GridSearchCV/RandomizedSearchCV)
 Cross Validation
 XGBoost Regressor
@@ -125,7 +133,7 @@ Real-time Prediction Dashboard
 SHAP Explainability for feature interpretation
 
 # 💻 Installation
-git clone https://github.com/yourusername/Wind_Energy_Efficiency.git
+git clone https://github.com/vaishnavipokhriyal083-sudo/Wind_Energy_Efficiency_Project/tree/main
 
 cd Wind_Energy_Efficiency
 
