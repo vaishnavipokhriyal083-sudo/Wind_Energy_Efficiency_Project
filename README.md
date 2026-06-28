@@ -61,8 +61,11 @@ R² Score:
 
 3️⃣ Random Forest Regressor ⭐
 Best Performing Model
+
 R² Score: 92.83%
+
 MAE: 0.4270
+
 RMSE: 0.6996
 
 # 📈 Model Evaluation
