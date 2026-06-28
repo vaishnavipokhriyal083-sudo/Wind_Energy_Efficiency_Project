@@ -53,11 +53,13 @@ The dataset was explored using:
 
 The following regression algorithms were implemented:
 
-1️⃣ Linear Regression  
-R² Score: 92.83%
+1️⃣ Linear Regression 
+
+R² Score: 23.86%
 
 2️⃣ Decision Tree Regressor
-R² Score: 
+
+R² Score: 87.18%
 
 3️⃣ Random Forest Regressor ⭐
 Best Performing Model
@@ -103,18 +105,22 @@ Best Model
 It demonstrated the highest predictive accuracy while maintaining the lowest prediction error.
 
 # 📁 Project Structure
+
 Wind_Energy_Efficiency/
 
 │
 ├── data/
+
 │   └── train.csv
 
 │
 ├── notebooks/
+
 │   └── Wind_Energy_Efficiency_Project.ipynb
 
 │
 ├── images/
+
 │   ├── Heatmap.png
 
 │   ├── Model_Comparison.png
@@ -134,16 +140,17 @@ Wind_Energy_Efficiency/
 
 # 🚀 Future Improvements
 
-Hyperparameter Tuning (GridSearchCV/RandomizedSearchCV)
-Cross Validation
-XGBoost Regressor
-LightGBM
-CatBoost Regressor
-Model Deployment using Streamlit or Flask
-Real-time Prediction Dashboard
-SHAP Explainability for feature interpretation
+1. Hyperparameter Tuning (GridSearchCV/RandomizedSearchCV)
+2. Cross Validation
+3. XGBoost Regressor
+4. LightGBM
+5. CatBoost Regressor
+6. Model Deployment using Streamlit or Flask
+7. Real-time Prediction Dashboard
+8. SHAP Explainability for feature interpretation
 
 # 💻 Installation
+
 git clone https://github.com/vaishnavipokhriyal083-sudo/Wind_Energy_Efficiency_Project/tree/main
 
 cd Wind_Energy_Efficiency
@@ -154,11 +161,11 @@ jupyter notebook
 
 # ▶️ Run the Project
 
-Open Wind_Energy_Efficiency_Project.ipynb
+1. Open Wind_Energy_Efficiency_Project.ipynb
 
-Run all cells
+2. Run all cells
 
-View the results and visualizations
+3. View the results and visualizations
 
 # 📌 Key Highlights
 1. Large dataset with 909K+ records
@@ -197,7 +204,11 @@ Second-Year B.Tech Student | Machine Learning Enthusiast | Python Developer
 Create an images/ folder in your repository and add screenshots of:
 
 📊 Correlation Heatmap
+
 📈 Model Comparison Chart
+
 🎯 Actual vs Predicted Plot
+
 📉 Residual Plot
+
 📌 Feature Importance Chart
