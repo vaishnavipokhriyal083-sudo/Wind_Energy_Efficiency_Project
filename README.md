@@ -1,7 +1,7 @@
 # Wind_Energy_Efficiency_Project
 
 # 📌 Project Overview
---
+
 Wind energy is one of the fastest-growing renewable energy sources. Monitoring turbine efficiency helps improve power generation, reduce maintenance costs, and optimize turbine performance.
 
 This project uses Machine Learning algorithms to predict the efficiency of wind turbines based on real-world sensor measurements such as wind speed, ambient temperature, grid power, reactive power, turbine ID, month, hour, and other operational parameters.
@@ -31,36 +31,38 @@ The dataset contains 909,604 observations and multiple sensor features collected
 
 # 🛠 Technologies Used
 
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-Learn
-Google Colab
+1. Python
+2. Pandas
+3. NumPy
+4. Matplotlib
+5. Seaborn
+6. Scikit-Learn
+7. Google Colab
 
 # 📊 Exploratory Data Analysis (EDA)
 
 The dataset was explored using:
 
-Dataset overview
-Missing value checking
-Correlation heatmap
-Feature selection
-Data visualization
+1. Dataset overview
+2. Missing value checking
+3. Correlation heatmap
+4. Feature selection
+5. Data visualization
 
 # 🤖 Machine Learning Models
 
 The following regression algorithms were implemented:
 
 1️⃣ Linear Regression  
-R² Score: 23.86%
+R² Score: 92.83%
+
 2️⃣ Decision Tree Regressor
-R² Score: 87.18%
+R² Score: 
+
 3️⃣ Random Forest Regressor ⭐
 Best Performing Model
-R² Score: 93.68%
-MAE: 0.3997
+R² Score: 92.83%
+MAE: 0.4270
 RMSE: 0.6996
 
 # 📈 Model Evaluation
@@ -68,7 +70,9 @@ RMSE: 0.6996
 Evaluation metrics used:
 
 R² Score
+
 Mean Absolute Error (MAE)
+
 Root Mean Squared Error (RMSE)
 
 The Random Forest Regressor achieved the highest prediction accuracy and lowest prediction error among all tested models.
@@ -109,9 +113,13 @@ Wind_Energy_Efficiency/
 │
 ├── images/
 │   ├── Heatmap.png
+
 │   ├── Model_Comparison.png
+
 │   ├── Residual_Plot.png
+
 │   ├── Feature_Importance.png
+
 │   └── Actual_vs_Predicted.png
 
 │
